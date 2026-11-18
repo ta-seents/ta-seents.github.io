@@ -1756,7 +1756,7 @@ body {
 
 footer {
 	height: max-content;
-	background-color: #011212;
+	background-color: #01201f;
 	text-align: center;
 	padding: 20px;
 }
@@ -1787,9 +1787,9 @@ footer p {
 } */
 
 
-@supports (scrollbar-color: #FFD07F #000000){
+@supports (scrollbar-color: #01201f #000000){
 	*{
-		scrollbar-color: #FFD07F #000000;
+		scrollbar-color: #01201f #000000;
 		scrollbar-width: thin;
 	}
 }
