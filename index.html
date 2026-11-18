@@ -711,7 +711,294 @@
 
 
         <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" style="/* Footer */
+.footer {
+	padding: 60px 30px 30px;
+	background: var(--primary-black);
+	border-top: 1px solid var(--metal-dark);
+	position: relative;
+}
+
+.footer-content {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr;
+	gap: 40px;
+	margin-bottom: 40px;
+}
+
+.footer-brand {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.footer-logo {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.footer-description {
+	color: var(--text-secondary);
+	line-height: 1.6;
+	font-size: 14px;
+}
+
+.footer-social {
+	display: flex;
+	gap: 15px;
+}
+
+.social-icon {
+	width: 40px;
+	height: 40px;
+	background: var(--carbon-medium);
+	border: 1px solid var(--metal-dark);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--text-secondary);
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+	background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
+	border-color: var(--accent-purple);
+	color: var(--text-primary);
+	transform: translateY(-3px);
+	box-shadow: 0 5px 15px rgba(153, 69, 255, 0.3);
+}
+
+.footer-section h4 {
+	color: var(--text-primary);
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 16px;
+}
+
+.footer-links {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.footer-links a {
+	color: var(--text-secondary);
+	text-decoration: none;
+	transition: all 0.3s ease;
+	font-size: 14px;
+}
+
+.footer-links a:hover {
+	color: var(--accent-purple);
+	padding-left: 10px;
+}
+
+.footer-bottom {
+	padding-top: 30px;
+	border-top: 1px solid var(--metal-dark);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.copyright {
+	color: var(--text-dim);
+	font-size: 14px;
+}
+
+.footer-credits {
+	color: var(--text-dim);
+	font-size: 14px;
+}
+
+.footer-credits a {
+	color: var(--accent-purple);
+	text-decoration: none;
+}
+
+.footer-credits a:hover {
+	text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+	.carousel-item {
+		width: 350px;
+		height: 480px;
+	}
+
+	.carousel-controls {
+		bottom: -60px;
+	}
+
+	.card-image {
+		height: 170px;
+	}
+
+	.card-title {
+		font-size: 22px;
+	}
+
+	.card-description {
+		font-size: 13px;
+	}
+
+	.philosophy-pillars {
+		grid-template-columns: 1fr;
+	}
+
+	.contact-container {
+		grid-template-columns: 1fr;
+	}
+
+	.footer-content {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 768px) {
+	.menu-toggle {
+		display: flex;
+	}
+
+	.nav-menu {
+		position: fixed;
+		left: -100%;
+		top: 85px;
+		flex-direction: column;
+		background: rgba(18, 18, 18, 0.98);
+		width: 100%;
+		text-align: center;
+		transition: 0.3s;
+		padding: 40px 0;
+		border-bottom: 1px solid var(--metal-dark);
+		gap: 0;
+	}
+
+	.nav-menu li {
+		margin: 15px 0;
+	}
+
+	.nav-menu a {
+		display: block;
+		padding: 15px 30px;
+		font-size: 16px;
+	}
+
+	.nav-menu.active {
+		left: 0;
+	}
+
+	.carousel-item {
+		width: 300px;
+		height: 460px;
+	}
+
+	.carousel-item .card {
+		padding: 20px;
+	}
+
+	.card-image {
+		height: 150px;
+		margin-bottom: 15px;
+	}
+
+	.card-title {
+		font-size: 20px;
+		margin-bottom: 12px;
+	}
+
+	.card-description {
+		font-size: 13px;
+		margin-bottom: 15px;
+	}
+
+	.card-tech {
+		margin-bottom: 15px;
+		gap: 6px;
+	}
+
+	.tech-badge {
+		padding: 4px 10px;
+		font-size: 11px;
+	}
+
+	.card-number {
+		font-size: 50px;
+		top: 15px;
+		right: 20px;
+	}
+
+	.card-cta {
+		padding: 10px 25px;
+		font-size: 14px;
+	}
+
+	.carousel-controls {
+		bottom: -60px;
+		gap: 15px;
+	}
+
+	.carousel-btn {
+		width: 50px;
+		height: 50px;
+		font-size: 20px;
+	}
+
+	.carousel-indicators {
+		top: 20px;
+		gap: 12px;
+	}
+
+	.indicator {
+		width: 10px;
+		height: 10px;
+	}
+
+	.philosophy-headline {
+		font-size: 36px;
+	}
+
+	.section-title {
+		font-size: 32px;
+	}
+
+	.stats-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.skill-hexagon {
+		width: 150px;
+		height: 170px;
+		margin: 20px 5px;
+	}
+
+	.skill-icon-hex {
+		font-size: 36px;
+	}
+
+	.skill-name-hex {
+		font-size: 14px;
+	}
+
+	.footer-content {
+		grid-template-columns: 1fr;
+		text-align: center;
+	}
+
+	.footer-bottom {
+		flex-direction: column;
+		gap: 20px;
+		text-align: center;
+	}">
         <div class="footer-content">
             <div class="footer-brand">
                 <div class="footer-logo">
