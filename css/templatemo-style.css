@@ -1,9 +1,9 @@
 .header {
 	padding: 15px 100px;
-	background-color: #1c9e86;
+	background-color: #0a7460;
 	display: flex;
 	align-items: center;
-	height: 55px;
+	height: 60px;
 	width: 100%;
 	margin: 0;
 }
@@ -28,9 +28,9 @@
 	height: 40px;
 	width: 40px;
 	margin-right: 10px;
-	border-radius: 50%;
+	border-radius: 10%;
 	transition: all 300ms ease-in-out;
-	border: 2px solid #000000;
+	border: 4px solid #053625;
 }
 
 .m-profile strong {
