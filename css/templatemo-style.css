@@ -1,6 +1,6 @@
 .header {
 	padding: 15px 100px;
-	background-color: #055849;
+	background-color: #01201f;
 	display: flex;
 	align-items: center;
 	height: 60px;
@@ -107,7 +107,7 @@
 
 .intro {
 	/* background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/iMac-2.webp); */
-	background-color: #012624;
+	background-color: #01201f;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1698,7 +1698,7 @@ margin-right: 10px;
 	}
 	
 	.section-13{
-		background-color: #333;
+		background-color: #01201f;
 		color: white;
 		display: flex;
 		flex-direction: column;
@@ -1756,7 +1756,7 @@ body {
 
 footer {
 	height: max-content;
-	background-color: #055849;
+	background-color: #011212;
 	text-align: center;
 	padding: 20px;
 }
