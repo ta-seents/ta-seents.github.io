@@ -337,7 +337,7 @@ abbr[title], acronym[title] {
 
 
 .section-2 {
-	background-color: #03272700;
+	background-color: #032727;
 	height: max-content;
 	padding: 100px 20px;
 	display: flex;
@@ -461,7 +461,7 @@ abbr[title], acronym[title] {
 
 .section-3 {
 	text-align: center;
-	background-color: rgba(245, 222, 179, 0);
+	background-color: wheat;
 	height: max-content;
 	flex-direction: column;
 	display: flex;
@@ -1398,7 +1398,7 @@ ul li{
 
 body {
 	overflow-x: hidden;
-	/* background-color: #000000; */
+	background-color: #000000;
 }
 
 footer {
