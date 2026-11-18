@@ -32,168 +32,83 @@
 <style>
   html, body {
     margin: 0;
-    min-height: 100%;
-    overflow-x: hidden;
-    background: #050816c6;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000000c7;
   }
 
   .bg-animation {
     position: fixed;
     inset: 0;
     z-index: -1;
-    overflow: hidden;
     pointer-events: none;
+    overflow: hidden;
     background:
-      radial-gradient(circle at 20% 20%, rgba(0, 255, 209, 0.12), transparent 25%),
-      radial-gradient(circle at 80% 30%, rgba(91, 141, 255, 0.12), transparent 28%),
-      radial-gradient(circle at 50% 80%, rgba(155, 81, 224, 0.10), transparent 30%),
-      linear-gradient(180deg, #050816 0%, #071120 50%, #04070f 100%);
+      radial-gradient(circle at 20% 20%, rgba(0, 255, 209, 0.14), transparent 28%),
+      radial-gradient(circle at 80% 25%, rgba(91, 141, 255, 0.12), transparent 30%),
+      radial-gradient(circle at 50% 80%, rgba(155, 81, 224, 0.10), transparent 32%),
+      linear-gradient(180deg, #050816 0%, #071120 55%, #04070f 100%);
+    background-size: 100% 100%;
   }
 
-  .bg-animation::before,
-  .bg-animation::after {
+  .bg-animation::before {
     content: "";
     position: absolute;
     inset: -20%;
-    background-image:
-      linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
-    background-size: 90px 90px;
-    transform: perspective(900px) rotateX(65deg) translateY(10%);
-    opacity: 0.08;
-    animation: gridMove 20s linear infinite;
+    background:
+      repeating-linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.04) 0,
+        rgba(255, 255, 255, 0.04) 1px,
+        transparent 1px,
+        transparent 90px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.04) 0,
+        rgba(255, 255, 255, 0.04) 1px,
+        transparent 1px,
+        transparent 90px
+      );
+    opacity: 0.18;
+    animation: gridMove 22s linear infinite;
   }
 
   .bg-animation::after {
-    opacity: 0.04;
-    animation-duration: 35s;
-    animation-direction: reverse;
-  }
-
-  .blob {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(8px);
-    mix-blend-mode: screen;
-    opacity: 0.55;
-    animation: float 12s ease-in-out infinite;
-  }
-
-  .blob.b1 {
-    width: 340px;
-    height: 340px;
-    left: -80px;
-    top: 10%;
-    background: radial-gradient(circle, rgba(0,255,209,0.45), rgba(0,255,209,0.03) 70%, transparent 75%);
-  }
-
-  .blob.b2 {
-    width: 420px;
-    height: 420px;
-    right: -120px;
-    top: 18%;
-    background: radial-gradient(circle, rgba(91,141,255,0.40), rgba(91,141,255,0.02) 70%, transparent 76%);
-    animation-duration: 15s;
-    animation-delay: -4s;
-  }
-
-  .blob.b3 {
-    width: 500px;
-    height: 500px;
-    left: 30%;
-    bottom: -180px;
-    background: radial-gradient(circle, rgba(155,81,224,0.32), rgba(155,81,224,0.02) 70%, transparent 76%);
-    animation-duration: 18s;
-    animation-delay: -7s;
-  }
-
-  .orb {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.85);
-    box-shadow:
-      0 0 12px rgba(0,255,209,0.7),
-      0 0 22px rgba(91,141,255,0.45);
-    animation: drift linear infinite;
-  }
-
-  .orb::before {
     content: "";
     position: absolute;
-    inset: -18px;
-    border-radius: 50%;
-    border: 1px solid rgba(255,255,255,0.10);
-    animation: pulse 2.8s ease-in-out infinite;
-  }
-
-  .net {
-    position: absolute;
     inset: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.35;
-  }
-
-  .net line {
-    stroke: rgba(120, 200, 255, 0.28);
-    stroke-width: 1;
-  }
-
-  .net circle {
-    fill: rgba(0, 255, 209, 0.7);
-    filter: drop-shadow(0 0 6px rgba(0,255,209,0.8));
-  }
-
-  .net .move {
-    transform-origin: center;
-    animation: networkPulse 6s ease-in-out infinite;
-  }
-
-  .net .move:nth-child(2n) {
-    animation-duration: 8s;
-  }
-
-  .line-glow {
-    stroke: rgba(0, 255, 209, 0.18);
-    stroke-width: 2;
-    filter: drop-shadow(0 0 6px rgba(0,255,209,0.4));
-    animation: lineShift 10s linear infinite;
-  }
-
-  @keyframes float {
-    0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
-    50% { transform: translate3d(0, -18px, 0) scale(1.06); }
-  }
-
-  @keyframes drift {
-    0% { transform: translate3d(0, 0, 0) scale(1); opacity: 0; }
-    10% { opacity: 1; }
-    50% { transform: translate3d(40px, -60px, 0) scale(1.2); }
-    100% { transform: translate3d(80px, -120px, 0) scale(0.9); opacity: 0; }
-  }
-
-  @keyframes pulse {
-    0%, 100% { transform: scale(0.85); opacity: 0.2; }
-    50% { transform: scale(1.2); opacity: 0.7; }
+    background:
+      radial-gradient(circle at 15% 30%, rgba(0, 255, 209, 0.10), transparent 0 18%),
+      radial-gradient(circle at 85% 35%, rgba(91, 141, 255, 0.10), transparent 0 20%),
+      radial-gradient(circle at 55% 75%, rgba(155, 81, 224, 0.08), transparent 0 22%);
+    animation: drift 16s ease-in-out infinite;
+    opacity: 0.9;
   }
 
   @keyframes gridMove {
-    from { background-position: 0 0, 0 0; }
-    to { background-position: 0 90px, 90px 0; }
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-90px, -90px, 0);
+    }
   }
 
-  @keyframes lineShift {
-    from { stroke-dashoffset: 0; }
-    to { stroke-dashoffset: 200; }
-  }
-
-  @keyframes networkPulse {
-    0%, 100% { opacity: 0.5; transform: scale(1); }
-    50% { opacity: 1; transform: scale(1.02); }
+  @keyframes drift {
+    0%, 100% {
+      transform: translate3d(0, 0, 0);
+      opacity: 0.75;
+    }
+    50% {
+      transform: translate3d(0, -18px, 0);
+      opacity: 1;
+    }
   }
 </style>
+
+<div class="bg-animation" aria-hidden="true"></div>
 
 <div class="bg-animation" aria-hidden="true">
   <span class="blob b1"></span>
