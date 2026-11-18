@@ -103,7 +103,7 @@
 
 .intro {
 	/* background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/iMac-2.webp); */
-	background-color: #000c0c;
+	/* background-color: #000c0c; */
 	/* background-position: center; */
 	/* background-repeat: no-repeat; */
 	/* background-size: cover; */
@@ -1398,7 +1398,7 @@ ul li{
 
 body {
 	overflow-x: hidden;
-	background-color: #000000;
+	/* background-color: #000000; */
 }
 
 footer {
