@@ -42,11 +42,7 @@
 }
 
 .m-profile:hover strong {
-	/* letter-spacing: 1px; */
-}
-
-.m-profile:hover .taseen-photo {
-	/* margin-left: -10px; */
+	letter-spacing: 1px;
 }
 
 .m-contact strong {
