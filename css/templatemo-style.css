@@ -1434,9 +1434,9 @@ footer p {
 } */
 
 
-@supports (scrollbar-color: tomato #000000){
+@supports (scrollbar-color: rgb(71, 215, 255)  #000000){
 	*{
-		scrollbar-color: tomato #000000;
+		scrollbar-color: rgb(71, 215, 255) #000000;
 		scrollbar-width: thin;
 	}
 }
