@@ -223,7 +223,7 @@ abbr[title], acronym[title] {
 	bottom: 0;
 	right: 0;
 	margin: 5px 10px;
-	color: rgb(255, 255, 255);
+	color: rgb(117, 255, 182);
 	padding: 10px;
 	z-index: 9;
 }
@@ -235,7 +235,7 @@ abbr[title], acronym[title] {
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.178);
 	font-weight: bolder;
 	padding: 10px;
-	background-color: #FFD07F;
+	background-color: #3e030f;
 	border: 2px solid #000000;
 }
 
@@ -247,12 +247,7 @@ abbr[title], acronym[title] {
 	line-height: 30px;
 }
 
-.wp-text {
-	text-transform: uppercase;
-	border-radius: 20px;
-	padding: 5px 20px;
-	margin-right: 10px;
-}
+
 .s2img {	transition: all 300ms ease-in-out;}
 .s2img:hover {
 	animation-name: flower;
