@@ -490,7 +490,7 @@ abbr[title], acronym[title] {
 	background-color: #000000;
 	color: white;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: flex-start;
 	align-content: center;
 	padding: 50px 0;
@@ -501,7 +501,7 @@ abbr[title], acronym[title] {
 	display: block;
 }
 .info1,.info2,.info3{
-width: 30%;
+/* width: 30%; */
 }
 .section-13 div ul{
 	max-width: 300px;
