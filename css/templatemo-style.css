@@ -1,6 +1,10 @@
+:root {
+	--color-main: #3e030f;
+}
+
 .header {
 	padding: 15px 100px;
-	background-color: #3e030f;	
+	background-color: var(--color-main);	
 	/* background-color: #01201f; */
 	display: flex;
 	align-items: center;
