@@ -103,7 +103,7 @@
 
 .intro {
 	/* background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/iMac-2.webp); */
-	/* background-color: #000c0c; */
+	background-color: #00050a;
 	/* background-position: center; */
 	/* background-repeat: no-repeat; */
 	/* background-size: cover; */
@@ -337,7 +337,7 @@ abbr[title], acronym[title] {
 
 
 .section-2 {
-	background-color: #03272780;
+	background-color: #0327275f;
 	height: max-content;
 	padding: 100px 20px;
 	display: flex;
@@ -596,7 +596,7 @@ abbr[title], acronym[title] {
 
 
 .section-4 {
-	background-color: #0f072c;
+	background-color: #0d042e7e;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -831,16 +831,16 @@ abbr[title], acronym[title] {
 	transform: scale(1.05);
 }
 .section-5{
-	background-color: #ffcc74;
+	background-color: #ffcc7474;
 }
 .section-6{
-	background-color: #7ea1ff;
+	background-color: #7ea0ff70;
 }
 .section-7{
-	background-color: #6af8c2;
+	background-color: #6af8c275;
 }
 .section-8{
-	background-color: #ff6464;
+	background-color: #ff64647a;
 }
 .section-9{
 	background-color: #da7cff;
@@ -1398,7 +1398,7 @@ ul li{
 
 body {
 	overflow-x: hidden;
-	background-color: #00000056;
+	background-color: #00000000;
 }
 
 footer {
