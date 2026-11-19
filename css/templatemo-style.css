@@ -176,20 +176,20 @@ abbr[title], acronym[title] {
 	text-align: center;
 	display: inline-block;
 	line-height: 36px;
-	background-color: var(--color-2);
+	background-color: var(--color-0);
 	border: 2px solid var(--color-0);
 	border-radius: 50%;
 	transition: all 0.5s;
-	color: var(--color-0);
+	color: var(--color-2);
 	font-size: 17px;
 	margin: 5px;
 	box-shadow: 0 0 25px 0 rgba(109, 109, 109, 0.185);
 }
 .social-icons li a:hover {
 	/* margin-left: 15px; */
-	color: var(--color-2);
-	border: 2px solid var(--color-2);
-	background-color: var(--color-0);
+	color: var(--color-0);
+	border: 2px solid var(--color-0);
+	background-color: var(--color-5);
 }
 
 .whatsapp-button {
