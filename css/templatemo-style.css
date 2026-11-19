@@ -859,7 +859,7 @@ abbr[title], acronym[title] {
 }
 
 .section-13{
-	background-color: #000000e4;
+	background-color: #000000;
 	color: white;
 	display: flex;
 	justify-content: space-evenly;
@@ -985,7 +985,6 @@ margin-right: 10px;
 		display: flex;
 		justify-content: start;
 	}
-
 
 	.menu-item {
 		padding: 0;
