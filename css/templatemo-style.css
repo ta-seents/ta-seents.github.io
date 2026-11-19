@@ -203,6 +203,7 @@ abbr[title], acronym[title] {
 	display: inline-block;
 	line-height: 36px;
 	background-color: var(--color-main);
+	border: 2px solid var(--color-0);
 	border-radius: 50%;
 	transition: all 0.5s;
 	color: var(--color-2);
