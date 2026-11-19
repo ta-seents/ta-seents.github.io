@@ -148,24 +148,6 @@
 	background-color: #000000;
 	}
 
- .down {
-	/* margin-left: -20px !important; */
-	position: absolute;
-	bottom: 50px;
-	height: 50px;
-	align-items: center;
-	width: 50px;
-	background-color: transparent;
-	color: #fff;
-	font-size: 21px;
-	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.199);
-	border-radius: 50%;
-	box-sizing: border-box;
-	border: 5px #010102 solid;
-	overflow: hidden;
-	transform: translatey(0px);
-	animation: float 3s ease-in-out infinite;
-} 
 
 @keyframes float {
 	0% {transform: translatey(0px);}
