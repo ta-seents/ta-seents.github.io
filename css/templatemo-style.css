@@ -66,7 +66,7 @@
 
 }
 
-.m-contact a {	text-decoration: none;}
+.m-contact a {text-decoration: none;}
 
 .m-menu {
 	/* display: flex; */
@@ -74,7 +74,7 @@
 	/* justify-content: end; */
 }
 
-.menu-list {	display: flex;}
+.menu-list {display: flex; margin: 0;}
 
 .menu-item {
 	padding: 5px 10px;
