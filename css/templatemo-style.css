@@ -4,7 +4,7 @@
 
 .header {
 	padding: 15px 100px;
-	background-color: var(--color-main);	
+	background-color: colorma;	
 	/* background-color: #01201f; */
 	display: flex;
 	align-items: center;
@@ -25,8 +25,8 @@
 
 .m-profile {
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	align-items: start;
+	justify-content: start;
 }
 
 .taseen-photo {
@@ -60,8 +60,8 @@
 
 .m-contact {
 	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+	justify-content: flex-end;
+	align-items: end;
 
 }
 
@@ -69,6 +69,7 @@
 
 .m-menu {
 	display: flex;
+	justify-content: flex-end;
 	justify-content: end;
 }
 
