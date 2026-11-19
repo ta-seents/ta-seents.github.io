@@ -98,6 +98,8 @@
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: contain;
+		margin-top: 50px;
+		margin-right: 20px;
 }
 
 .intro {
@@ -110,7 +112,6 @@
 	align-content: center;
 	padding: 0 100px;
 	z-index: 7;
-	margin-top: 50px;
 }
 
 .slider-button {display: inline-block;}
