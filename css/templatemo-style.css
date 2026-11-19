@@ -717,10 +717,7 @@ margin-right: 10px;
 	}
 
 	.card2 {display: none;}
-
-	.section-2 ul {
-		margin-top: 15px;
-	}
+	.section-2 ul {margin-top: 15px;}
 
 	/* section 3 start */
 
@@ -730,18 +727,13 @@ margin-right: 10px;
 		margin: 0;
 	}
 
-	.section-3:has(span)>span {
-		padding: 20px;
-	}
-
+	.section-3:has(span)>span {padding: 20px;}
 	.section-3 span {
 		text-align: left;
 		padding: 20px;
 	}
 
-	.section-3 .row {
-		width: 100%;
-	}
+	.section-3 .row {width: 100%;}
 	.section-3 .row .job-card {
 		height: max-content;
 		display: flex;
@@ -763,22 +755,10 @@ margin-right: 10px;
 		margin: 0;
 	}
 
-	.section-3 .row .job-card:hover .text span {
-		display: none;
-	}
-
-	.section-3 .row .cm {
-		display: none;
-	}
-
-	.section-3 .row .job-card:hover .img img {
-		transform: scale(1);
-	}
-
-	.whatsapp-button,.wp-icon,.wp-icon,.wp-text,.whatsapp{
-		display: none;
-	}
-
+	.section-3 .row .job-card:hover .text span {display: none;}
+	.section-3 .row .cm {display: none;}
+	.section-3 .row .job-card:hover .img img {transform: scale(1);}
+	.whatsapp-button,.wp-icon,.wp-icon,.wp-text,.whatsapp{display: none;}
 
 	.imgg{
 		display: flex;
@@ -791,31 +771,24 @@ margin-right: 10px;
 		height: auto;
 		margin: 0 30px;
 	}
-	.pftext h1{
-		font-size: 21px;
-	}
+	.pftext h1{font-size: 21px;}
 	.pftext span{
 		font-size: 12px;
 		word-spacing: initial;
 		text-transform: none;
 	}
-	.imgg img{
-		transition: all 300ms ease;
-	}
-
-
+	.imgg img{transition: all 300ms ease;}
 	
 	.section-13{
 		/* background-color: #01201f !important;  */
-		color: white;
+		color: #ffffff;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
 		align-items: flex-start;
 		align-content: center;
 		padding: 50px 20px;
-	
-	}
+		}
 	
 	.info1 strong,.info2 strong,.info3 strong{
 		font-size: 18px;
@@ -828,24 +801,18 @@ margin-right: 10px;
 	}
 	.section-13 div ul li{
 		line-height: 25px;
-		color: #cecece;
+		color: #ffffff;
 	}
-		.info3 table{
-		color: #cecece;
-	}
+	.info3 table{color: #ffffff;}
 	.sicns li{
 	display: inline;
 	margin: 0;
 	margin-right: 10px;
 	}
-	.sicns li a{
-		color: #0c5552;
-		}
+	.sicns li a{color: #0c5552;}
 }
 
-ul li{
-	list-style-type: none;
-}
+ul li{list-style-type: none;}
 body {
 	overflow-x: hidden;
 	background-color: #00000000;
