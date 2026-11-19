@@ -97,7 +97,7 @@
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-size: 80%;
+	/* background-size: 80%; */
 		margin-top: 80px;
 		margin-right: 20px;
 }
