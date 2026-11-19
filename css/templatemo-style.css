@@ -189,7 +189,7 @@ abbr[title], acronym[title] {
 	/* margin-left: 15px; */
 	color: var(--color-2);
 	border: 2px solid var(--color-2);
-	background-color: var(--color-0);
+	background-color: var(--color-3);
 }
 
 .whatsapp-button {
