@@ -703,11 +703,7 @@ margin-right: 10px;
 	.button li:nth-child(3) a {
 		display: none;
 	}
-	.projectNumber{
-		margin-top: 50px !important;
-		margin-bottom: 0 !important;
-	}
-	.cap-body strong {
+		.cap-body strong {
 		color: #FFD07F;
 		margin: 0;
 		padding: 0;
