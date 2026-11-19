@@ -55,7 +55,7 @@
 .m-profile:hover strong {	letter-spacing: 1px;}
 
 .m-contact strong {
-	color: #158f8b;
+	color: var(--color-2);
 	font-size: 14px;
 	background-color: #000000;
 	border-radius: 15px;
@@ -68,9 +68,7 @@
 	display: flex;
 	justify-content: flex-end;
 	align-items: end;
-
 }
-
 .m-contact a {text-decoration: none;}
 
 .m-menu {
