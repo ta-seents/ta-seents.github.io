@@ -223,20 +223,17 @@ abbr[title], acronym[title] {
 	bottom: 0;
 	right: 0;
 	margin: 5px 10px;
-	color: rgb(117, 255, 182);
 	padding: 10px;
 	z-index: 9;
 }
 
 .whatsapp {
 	color: white;
-	border: none;
-	color: #000000;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.178);
 	font-weight: bolder;
 	padding: 10px;
-	background-color: #3e030f;
-	border: 2px solid #000000;
+	background-color: #01873f;
+	border: 2px solid #ffffff;
 }
 
 .wp-icon {
