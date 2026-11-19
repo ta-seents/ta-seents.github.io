@@ -4,7 +4,7 @@
 
 .header {
 	padding: 15px 100px;
-	background-color: colorma;	
+	background-color: var(--color-main);	
 	/* background-color: #01201f; */
 	display: flex;
 	align-items: center;
@@ -68,9 +68,9 @@
 .m-contact a {	text-decoration: none;}
 
 .m-menu {
-	display: flex;
-	justify-content: flex-end;
-	justify-content: end;
+	/* display: flex; */
+	/* justify-content: flex-end; */
+	/* justify-content: end; */
 }
 
 .menu-list {	display: flex;}
