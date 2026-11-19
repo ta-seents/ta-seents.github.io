@@ -124,7 +124,7 @@
 .slider-button a {
 	color: black;
 	text-decoration: none;
-	background-color: #FFD07F;
+	background-color: var(--color-main);
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -135,7 +135,7 @@
 	transition: all 300ms ease;
 	margin: 20px 15px 20px 0;
 	color: black;	
-	border: 1px solid #FFD07F;
+	border: 1px solid var(--color-main);
 }
 
 .slider-button a:hover {
@@ -146,8 +146,8 @@
 
 
 .button li:nth-child(3) a {
-	border: 1px solid #FFD07F;
-	color: #FFD07F;
+	border: 1px solid var(--color-main);
+	color: var(--color-main);
 	background-color: transparent;
 	}
 .button li:nth-child(3):hover a {
@@ -211,7 +211,7 @@ abbr[title], acronym[title] {
 	background-color: #000000;
 	border-radius: 50%;
 	transition: all 0.5s;
-	color: #FFD07F;
+	color: var(--color-main);
 	font-size: 17px;
 	margin: 5px;
 	box-shadow: 0 0 25px 0 rgba(109, 109, 109, 0.185);
@@ -220,7 +220,7 @@ abbr[title], acronym[title] {
 .social-icons li a:hover {
 	/* margin-left: 15px; */
 	color: #000000;
-	background-color: #FFD07F;
+	background-color: var(--color-main);
 }
 
 
@@ -541,7 +541,7 @@ margin: 0;
 margin-right: 10px;
 }
 .sicns li a{
-	color: #FFD07F;
+	color: var(--color-main);
 
 }
 
@@ -682,7 +682,7 @@ margin-right: 10px;
 		width: 100%;
 	}
 	.slider-button a {
-		background-color: #FFD07F;
+		background-color: var(--color-main);
 		font-size: 14px;
 		border: none;
 		padding: 10px 20px;
