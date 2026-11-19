@@ -41,9 +41,7 @@
 	transition: all 300ms ease-in-out;
 }
 
-.m-profile:hover strong {
-	letter-spacing: 1px;
-}
+.m-profile:hover strong {	letter-spacing: 1px;}
 
 .m-contact strong {
 	color: #158f8b;
@@ -62,18 +60,14 @@
 
 }
 
-.m-contact a {
-	text-decoration: none;
-}
+.m-contact a {	text-decoration: none;}
 
 .m-menu {
 	display: flex;
 	justify-content: end;
 }
 
-.menu-list {
-	display: flex;
-}
+.menu-list {	display: flex;}
 
 .menu-item {
 	padding: 5px 10px;
@@ -87,12 +81,9 @@
 	/* outline: 1px solid #123456; */
 }
 
-.menu-link:hover {
-	text-decoration: none !important;
-}
+.menu-link:hover {text-decoration: none !important;}
 
-.menu-item:hover,
-.m-contact strong:hover {
+.menu-item:hover,.m-contact strong:hover {
 	color: #035552;
 	background-color: rgb(0, 0, 0);
 	padding: 5px 30px;
@@ -122,9 +113,7 @@
 	margin-top: 50px;
 }
 
-.slider-button {
-	display: inline-block;
-}
+.slider-button {display: inline-block;}
 
 .slider-button a {
 	color: black;
@@ -157,8 +146,7 @@
 	}
 .button li:nth-child(3):hover a {
 	background-color: #000000;
-	
-}
+	}
 
  .down {
 	/* margin-left: -20px !important; */
@@ -179,18 +167,9 @@
 } 
 
 @keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-
-	50% {
-		transform: translatey(-20px);
-	}
-
-	100% {
-		transform: translatey(0px);
-
- }
+	0% {transform: translatey(0px);}
+	50% {transform: translatey(-20px);}
+	100% {transform: translatey(0px);}
 }
 .cap-head {
 	font-size: 52px;
@@ -200,13 +179,8 @@
 	width: 100%;
 }
 
-.cap-body strong {
-	color: #FFD07F;
-}
-
-.cap-head span {
-	text-decoration: none;
-}
+.cap-body strong {	color: #FFD07F;}
+.cap-head span {	text-decoration: none;}
 
 abbr[title], acronym[title] {
 	border: 0 !important;
@@ -236,13 +210,8 @@ abbr[title], acronym[title] {
 	display: none;
 } */
 
-.social-icons-bottom {
-	display: block;
-}
-
-.social-icons-bottom ul li {
-	display: inline-block;
-}
+.social-icons-bottom {	display: block;}
+.social-icons-bottom ul li {	display: inline-block;}
 
 .social-icons li a {
 	width: 45px;
@@ -301,19 +270,13 @@ abbr[title], acronym[title] {
 	padding: 5px 20px;
 	margin-right: 10px;
 }
-
-.s2img {
-	transition: all 300ms ease-in-out;
-
-}
-
+.s2img {	transition: all 300ms ease-in-out;}
 .s2img:hover {
 	animation-name: flower;
 	animation-duration: 5000ms;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 }
-
 
 
 @keyframes flower {
@@ -330,12 +293,6 @@ abbr[title], acronym[title] {
 
 
 
-
-
-
-
-
-
 .section-2 {
 	background-color: #0327275f;
 	height: max-content;
@@ -345,21 +302,18 @@ abbr[title], acronym[title] {
 	align-items: center;
 	width: 100%;
 }
-
 .section-2 .heading {
 	color: white;
 	font-size: 32px;
 	font-weight: bolder;
 	text-transform: uppercase;
 }
-
 .section-3 .heading {
 	color: #12345663;
 	font-size: 32px;
 	text-transform: uppercase;
 	font-weight: bolder;
 }
-
 .section-2 ul li {
 	display: inline-block;
 	margin: 5px;
@@ -371,15 +325,10 @@ abbr[title], acronym[title] {
 	transition: all 300ms ease-in-out;
 	cursor: pointer;
 }
-
 .section-2 ul li:hover {
 	color: #ffffff;
 	background-color: rgba(3, 3, 3, 0.281);
 }
-
-
-
-
 .section-2 .row {
 	/* background-color: rgb(255, 230, 0); */
 	padding: 10px;
@@ -387,20 +336,14 @@ abbr[title], acronym[title] {
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
-
 }
-
-.section-2 .row .sec1,
-.sec2 {
+.section-2 .row .sec1,.sec2 {
 	width: 50%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-
-.card1,
-.card3,
-.card4 {
+.card1,.card3,.card4 {
 	width: 555px;
 	height: 300px;
 	padding: 10px;
@@ -409,10 +352,7 @@ abbr[title], acronym[title] {
 	align-items: center;
 	justify-content: center;
 }
-
-.card1,
-.card3,
-.card4 {
+.card1,.card3,.card4 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -422,27 +362,13 @@ abbr[title], acronym[title] {
 	text-align: center;
 	transition: all 300ms ease-in-out;
 }
-
-.card1 strong,
-.card3 strong,
-.card4 strong {
+.card1 strong,.card3 strong,.card4 strong {
 	font-size: 21px;
 	font-weight: normal;
 }
-
-
-.card1 {
-	background-color: #c53d51;
-}
-
-.card3 {
-	background-color: #2A4840;
-}
-
-.card4 {
-	background-color: #091841;
-}
-
+.card1 {	background-color: #c53d51;}
+.card3 {	background-color: #2A4840;}
+.card4 {	background-color: #091841;}
 .card2 {
 	width: 555px;
 	height: 300px;
@@ -452,12 +378,7 @@ abbr[title], acronym[title] {
 	align-items: center;
 	justify-content: center;
 }
-
-.card1:hover,
-.card3:hover,
-.card4:hover {
-	filter: brightness(150%);
-}
+.card1:hover,.card3:hover,.card4:hover {	filter: brightness(150%);}
 
 .section-3 {
 	text-align: center;
@@ -469,14 +390,12 @@ abbr[title], acronym[title] {
 	justify-content: center;	
 	padding: 100px 100px;
 }
-
 .section-3 .row {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 }
-
 .section-3 .row .job-card {
 	background-color: #ffffffb7;
 	width: 40%;
@@ -488,55 +407,45 @@ abbr[title], acronym[title] {
 	box-shadow: 0 0 15px 0 rgba(124, 124, 124, 0.068);
 	border-radius: 10px;
 	border: 4px solid white;
-
 }
-
 .section-3 .row .job-card img {
 	transition: all 300ms ease-in-out;
 	border-radius: 10px;
 }
-
 .section-3 .row .job-card:hover {
 	border: 4px solid #123456;
 }
-
 .job-card .img {
 	width: 60%;
 	height: 100%;
 	display: flex;
 	align-items: stretch;
 }
-
 .job-card .text {
 	width: 40%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	
-	margin: 25px;
+		margin: 25px;
 	transition: all 300ms ease-in-out;
 }
-
 .section-3 .row .job-card .text span {
 	color: #123456;
 	display: none;
 	transition: all 300ms ease-in-out;
 }
-
 .section-3 .row .job-card:hover .text span {
 	color: white;
 	display: block;
 	text-align: left;
 }
-
 .section-3 .row .job-card .text strong {
 	color: #123456;
 	font-size: 21px;
 	text-transform: uppercase;
 	transition: all 300ms ease-in-out;
 }
-
 .section-3 .row .job-card .text div input {
 	width: 80px;
 	margin: 5px 0;
@@ -559,26 +468,21 @@ abbr[title], acronym[title] {
 	background-color: #4be089;
 	margin-left: 10px;
 }
-
 .section-3 .row .job-card:hover {
 	background-color: #123456;
 	color: wheat;
 }
-
 .section-3 .row .job-card:hover strong {
 	color: wheat;
 }
-
 .section-3 .row .job-card:hover .img img {
 	transform: scale(1.12);
 	border-radius: 10px;
 }
-
 .section-3 .row .job-card:hover .text input {
 	background-color: wheat;
 	color: #123456;
 }
-
 .section-3 .row .cm {
 	background-color: #ffffff6c;
 	color: #123456;
@@ -589,10 +493,6 @@ abbr[title], acronym[title] {
 	justify-content: center;
 	transition: all 300ms ease-in;
 }
-
-
-
-
 
 
 .section-4 {
@@ -675,139 +575,84 @@ abbr[title], acronym[title] {
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.164);
 }
 
-
 .cardOverlay li:nth-child(2) a:hover {
 	background-color: white;
 	color: #e86859;
 }
-
 .cardOverlay li:nth-child(3) a:hover {
 	background-color: white;
 	color: #0aa54a;
 }
-
 .cardOverlay li:first-child a {
 	background-color: #ffffff;
 	color: #123456;
 }
-
 .cardOverlay li:nth-child(2) a {
 	background-color: #059bff;
 	color: #ffffff;
 }
-
 .cardOverlay li:nth-child(3) a {
 	background-color: #46e688;
 	color: #ffffff;
 }
-
 .demoCard:hover .cardOverlay li {
 	opacity: 1;
 }
-
 .demoCard:hover .cardOverlay{
 	background-color: #00000028;
 	height: 100%;
-
 }
 
 
-.dc1:hover {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h1.webp);
+.dc1:hover {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h1.webp);
 }
-
-.dc2:hover {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h2.webp);
+.dc2:hover {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h2.webp);
 }
-
-.dc3:hover {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h3.webp);
+.dc3:hover {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h3.webp);
 }
-
-.dc4:hover {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h4.webp);
+.dc4:hover {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h4.webp);
 }
-
-.dc5:hover {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h5.webp);
+.dc5:hover {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h5.webp);
 }
-
-.dc6:hover {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h6.webp);
+.dc6:hover {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h6.webp);
 }
-
-.dc7:hover {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h7.webp);
+.dc7:hover {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h7.webp);
 }
-
-.dc8:hover {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h8.webp);
+.dc8:hover {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h8.webp);
 }
-
-.dc9:hover {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h9.webp);
+.dc9:hover {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h9.webp);
 }
-
-.dc10:hover {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h10.webp);
+.dc10:hover {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h10.webp);
 }
-
-.dc11:hover {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h11.webp);
+.dc11:hover {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h11.webp);
 }
-
-.dc12:hover {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h12.webp);
+.dc12:hover {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/h12.webp);
 }
 
 
-
-.dc1 {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/1.webp);
+.dc1 {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/1.webp);
 }
-
-.dc2 {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/2.webp);
+.dc2 {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/2.webp);
 }
-
-.dc3 {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/3.webp);
+.dc3 {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/3.webp);
 }
-
-.dc4 {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/4.webp);
+.dc4 {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/4.webp);
 }
-
-.dc5 {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/5.webp);
+.dc5 {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/5.webp);
 }
-
-.dc6 {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/6.webp);
+.dc6 {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/6.webp);
 }
-
-.dc7 {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/7.webp);
+.dc7 {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/7.webp);
 }
-
-.dc8 {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/8.webp);
+.dc8 {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/8.webp);
 }
-
-.dc9 {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/9.webp);
+.dc9 {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/9.webp);
 }
-
-.dc10 {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/10.webp);
+.dc10 {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/10.webp);
 }
-
-.dc11 {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/11.webp);
+.dc11 {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/11.webp);
 }
-
-.dc12 {
-	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/12.webp);
+.dc12 {	background-image: url(https://raw.githubusercontent.com/seensqima/taseen/main/img/template/12.webp);
 }
 
 
@@ -830,21 +675,11 @@ abbr[title], acronym[title] {
 .imgg img:hover{
 	transform: scale(1.05);
 }
-.section-5{
-	/* background-color: #ffcc7474; */
-}
-.section-6{
-	/* background-color: #7ea0ff70; */
-}
-.section-7{
-	/* background-color: #6af8c275; */
-}
-.section-8{
-	background-color: #ff64647a;
-}
-.section-9{
-	background-color: #da7cff;
-}
+.section-5{	/* background-color: #ffcc7474; */}
+.section-6{	/* background-color: #7ea0ff70; */}
+.section-7{	/* background-color: #6af8c275; */}
+.section-8{	background-color: #ff64647a;}
+.section-9{	background-color: #da7cff;}
 
 .pftext{
 	margin-bottom: -200px;
@@ -1174,8 +1009,6 @@ margin-right: 10px;
 		display: none;
 	}
 
-
-
 	.section-4 {
 		display: flex;
 		justify-content: space-evenly;
@@ -1199,7 +1032,6 @@ margin-right: 10px;
 		padding: 0 20px !important;
 		margin-bottom: 50px;
 	}
-
 
 	.section-4 .row {
 		display: flex;
@@ -1336,13 +1168,9 @@ margin-right: 10px;
 		line-height: 25px;
 		color: #cecece;
 	}
-	
-	.info3 table{
+		.info3 table{
 		color: #cecece;
 	}
-	
-	
-	
 	.sicns li{
 	display: inline;
 	margin: 0;
@@ -1350,41 +1178,29 @@ margin-right: 10px;
 	}
 	.sicns li a{
 		color: #0c5552;
-	
-	}
-	
-
-
-
+		}
 }
 
 ul li{
 	list-style-type: none;
 }
-
-
 body {
 	overflow-x: hidden;
 	background-color: #00000000;
 }
-
 footer {
 	height: max-content;
-	background-color: #01201f;
+	background-color: #011a19;
 	text-align: center;
-	padding: 20px;
+	padding: 10px 20px;
 }
-
 footer p {
 	font-size: 13px;
-	color: #cacaca;
+	color: #ffffff;
 	font-weight: 500;
 	margin: 0;
-
 }
-
-
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
 	width: 18px;
 	display: hidden;
 }
@@ -1395,11 +1211,10 @@ footer p {
 ::-webkit-scrollbar-thumb{
 	background-color: rgb(0, 0, 0);
 	transition: all 300ms ease-in-out;
-}
+} */
 /* ::-webkit-scrollbar-thumb:hover{
 	background-color: #FFD07F;
 } */
-
 
 @supports (scrollbar-color: rgb(71, 215, 255)  #000000){
 	*{
