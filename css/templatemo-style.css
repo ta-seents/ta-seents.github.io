@@ -4,7 +4,7 @@
 	--color-1: #032d2f;
 	--color-2: #ffffff;
 	--color-3: #158f8b;
-	--color-5: transparent;
+	--color-5: #00000078;
 }
 
 .header {
@@ -123,9 +123,9 @@
 .slider-button {display: inline-block;}
 
 .slider-button a {
-	color: var(--color-3);
+	color: var(--color-2);
 	text-decoration: none;
-	background-color: var(--color-5);
+	background-color: var(--color-3);
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -142,11 +142,11 @@
 }
 
 .button li:nth-child(3) a {
-	border: 2px solid var(--color-3);
 	color: var(--color-3);
 	background-color: var(--color-5);
 	}
 .button li:nth-child(3):hover a {
+		color: var(--color-0);
 	}
 
 @keyframes float {
