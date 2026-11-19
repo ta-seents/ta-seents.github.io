@@ -1,7 +1,9 @@
 :root {
 	--color-main: #3e030f;
+	--color-0: #9b001f;
 	--color-1: #032d2f;
 	--color-2: #ffffff;
+	--color-3: #158f8b;
 
 }
 
@@ -135,13 +137,13 @@
 	border-radius: 5px;
 	transition: all 300ms ease;
 	margin: 20px 15px 20px 0;
-	border: 1px solid var(--color-main);
+	border: 2px solid var(--color-2);
 }
 
 .slider-button a:hover {
 	/* margin: 48px auto; */
 	background-color: black;
-	color: #158f8b;
+	color: var(--color-3);
 }
 
 
