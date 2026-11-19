@@ -202,7 +202,7 @@ abbr[title], acronym[title] {
 	text-align: center;
 	display: inline-block;
 	line-height: 36px;
-	background-color: var(--color-0);
+	background-color: var(--color-main);
 	border-radius: 50%;
 	transition: all 0.5s;
 	color: var(--color-2);
@@ -213,8 +213,9 @@ abbr[title], acronym[title] {
 
 .social-icons li a:hover {
 	/* margin-left: 15px; */
-	color: #000000;
-	background-color: var(--color-main);
+	color: var(--color-0);
+	border: 2px solid var(--color-0);
+	background-color: var(--color-5);
 }
 
 .whatsapp-button {
