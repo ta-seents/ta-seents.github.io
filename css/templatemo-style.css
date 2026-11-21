@@ -1,16 +1,16 @@
 :root {
 	--color-main: #032d2f;
-	--color-0: #a50021;
+	--color-0: #158f8b;
 	--color-1: #032d2f;
 	--color-2: #ffffff;
 	--color-3: #158f8b;
 	--color-5: #00000078;
-}
+	--color-6: #760010;
+	}
 
 .header {
 	padding: 15px 100px;
 	background-color: var(--color-main);	
-	/* background-color: #01201f; */
 	display: flex;
 	align-items: center;
 	height: 60px;
@@ -52,7 +52,7 @@
 	align-self: center;
 }
 
-.m-profile:hover strong {	letter-spacing: 1px;}
+.m-profile:hover strong {letter-spacing: 1px;}
 
 .m-contact strong {
 	color: var(--color-0);
@@ -184,7 +184,7 @@ abbr[title], acronym[title] {
 	/* margin-left: 15px; */
 	color: var(--color-2);
 	border: 2px solid var(--color-2);
-	background-color: var(--color-0);
+	background-color: var(--color-6);
 }
 
 .whatsapp-button {
