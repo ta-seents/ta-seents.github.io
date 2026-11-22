@@ -390,77 +390,48 @@ a{color: var(--color-2);}
 @media (max-width: 500px) {}
 
 @media (max-width: 991.98px) {
-
 	.cap-head span {display: block;}
 	.header {
 		flex-direction: column;
 		height: max-content;
+		padding: 10px 20px;
 	}
-	.m-profile{padding: 10px 0;}
 	.header .m-contact {display: none;}
-	.menu-item {font-size: 14px;}
+	.menu-item {font-size: 14px; margin: 10px 0 0 0;}
 
-	/* intro start */
-
-	.section-2 {
-		/* height: 90vh !Impor; */
-
-	}
-	.intro {
-		background-position: bottom;
-	}
+	.intro {background-position: bottom;}
 	.intro {
 		height: 100vh;
 		justify-content: flex-end;
 		padding: 0 20px;
 		margin-top: 0px;
+		margin-right: 0px;
 	}
-	.slider-button a {
-		background-color: var(--color-3);
-		border: 2px solid var(--color-2);
-		padding:  20px;
-	}
+	.slider-button a {display:none;}
 	.cap-head {
-		font-size: 28px;
-		}
-	.phone {display: block !important;
-	margin-bottom: -20px !important;}
-
+	font-size: 24px; 
+	/* position:absolute; 
+	top: 150px !important; 
+	width: 94%; */
+	margin: 0; Padding: 0;
+}
+	/* .phone {display: none !important;} */
 	.button li:nth-child(2) a {display: none;}
 	.button li:nth-child(3) a {display: none;}
 	
-	
 	.cap-body {
-		color: white;
-		font-size: 14px;
 		line-height: 27px;
-		margin: 0;
-		padding: 0;
-		margin-bottom: 0;
-		text-align: left;
 		width: 100%;
 	}
-	.intro .button {
-		width: 100%;
-		display: flex;
-		justify-content: space-between;
-		margin-top: 50px !important;
-		margin: 10px 0 !important;
-	}
-	.social-icons-bottom {
-		display: block;
-		position: absolute;
-		bottom: 50px;
-		left: 20px;
-	}
+	
+	.social-icons-bottom {margin: 0 0 10px 0 !important;}
 	.section-2:has(span)>span {
 		padding: 20px;
 	}
 
 	.section-2 .row {
-		display: flex;
 		flex-direction: column;
-		padding: 50px 0;
+		padding: 0 !important;
 	}
 
 	.card1,	.card3,	.card4 {
@@ -470,59 +441,21 @@ a{color: var(--color-2);}
 	}
 
 	.card2 {display: none;}
-	.section-2 ul {margin-top: 15px;}
-
-	
+	.section-2 ul {margin-top: 15px; margin-left: 10px;}
 	.whatsapp-button,.wp-icon,.wp-icon,.wp-text,.whatsapp{display: none;}
 
-	.imgg{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	.pftext{
-		margin-bottom: -35px !important;
-		height: auto;
-		margin: 0 30px;
-	}
-	.pftext h1{font-size: 21px;}
-	.pftext span{
-		font-size: 12px;
-		word-spacing: initial;
-		text-transform: none;
-	}
-	.imgg img{transition: all 300ms ease;}
-	
 	.section-13{
-		/* background-color: #01201f !important;  */
-		color: #ffffff;
-		display: flex;
 		flex-direction: column;
-		justify-content: space-evenly;
-		align-items: flex-start;
-		align-content: center;
+		justify-content: space-between;
 		padding: 50px 20px;
 		}
 	
 	.info1 strong,.info2 strong,.info3 strong{
-		font-size: 18px;
-		padding: 10px 0;
+		font-size: 26px;
+		padding: 30px 0 5px 0;
 		display: block;
-	}
-	.section-13 div ul{
-		max-width: 300px;
-		margin: 0;
-	}
-	.section-13 div ul li{
-		line-height: 25px;
-		color: #ffffff;
-	}
-	.sicns li{
-	display: inline;
-	margin: 0;
-	margin-right: 10px;
-	}
+	}	
+	.sicns{margin: 20px 0 0 0;}
 }
 
 ul li{list-style-type: none;}
