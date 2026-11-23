@@ -460,9 +460,7 @@ a{color: var(--color-2);}
 	}
 	
 	.social-icons-bottom {margin: 0 0 10px 0 !important;}
-	.section-2:has(span)>span {
-		padding: 20px;
-	}
+	.section-2:has(span)>span {padding: 20px;}
 
 	.section-2 .row {
 		flex-direction: column;
