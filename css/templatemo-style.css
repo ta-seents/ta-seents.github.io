@@ -445,17 +445,18 @@ a{color: var(--color-2);}
 	font-size: 24px; 
 	position:absolute; 
 	top: 150px !important; 
-	width: 94%;
-	margin: 0; Padding: 0;
+	width: 90%;
+	margin: 0 !important; Padding: 0 !important;
+	text-align: center;
 }
-	/* .phone {display: none !important;} */
+	.phone {font-size: 22px;}
 	.button li:nth-child(2) a {display: none;}
 	.button li:nth-child(3) a {display: none;}
 	
 	.cap-body {
 		line-height: 24px;
 		width: 100%;
-		text-shadow:rgb(0, 0, 0);
+		text-shadow: 4px 4px 3px rgba(0,0,0,0.6);		
 	}
 	
 	.social-icons-bottom {margin: 0 0 10px 0 !important;}
