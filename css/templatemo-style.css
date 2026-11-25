@@ -10,48 +10,6 @@
 	}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-.fx-lava {
-  font: 800 40px/1.1 Arial, 'Helvetica Neue', sans-serif;
-  color: transparent;
-  background:
-    radial-gradient(circle at 24% 80%, #67ffb0 0 19%, transparent 22%),
-    radial-gradient(circle at 74% 26%, #00f7ff 0 21%, transparent 24%),
-    radial-gradient(circle at 50% 58%, #c3f0ff 0 23%, transparent 26%),
-    radial-gradient(circle at 12% 30%, #00e5ff 0 17%, transparent 20%),
-    linear-gradient(180deg, #ffffff, #fcffa8 96%);
-  background-size: 150% 190%;
-  background-position: 0% 0%;
-  -webkit-background-clip: text;  background-clip: text;
-  animation: fx-lava-drift 5s ease-in-out infinite;
-}
-@keyframes fx-lava-drift {  0%, 100% { background-position: 0% 0%; }  50% { background-position: 100% 100%; }}
-@keyframes fx-lava-blobs {  0%, 100% { background-position: 100% 0%; }  50% { background-position: 0% 100%; }}
-@media (prefers-reduced-motion: reduce) {  .fx-lava { animation: none; }  .fx-lava::after { animation: none; }}
-
-.fx-lava:hover {animation: fx-lava-drift 1s ease-in-out infinite;}
 .header {
 	padding: 15px 100px;
 	background-color: var(--color-main);	
@@ -259,19 +217,6 @@ abbr[title], acronym[title] {
 	width: 60px;
 }
 
-.s2img {transition: all 300ms ease-in-out;}
-.s2img:hover {
-	animation-name: flower;
-	animation-duration: 5000ms;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-}
-
-@keyframes flower {
-	from {transform: rotate(0deg);}
-	to {transform: rotate(360deg);}
-}
-
 .section-2 {
 	background-color: var(--color-main-t);
 	justify-content: center;	
@@ -280,13 +225,9 @@ abbr[title], acronym[title] {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	align-content: center;
 }
 
-.section-2 .heading {
-	color: var(--color-2);
-	font-size: 32px;
-	text-align: center;
-}
 .section-2 ul li {
 	display: inline-block;
 	margin: 5px;
@@ -295,7 +236,6 @@ abbr[title], acronym[title] {
 	background-color: var(--color-2);
 	padding: 5px 15px;
 	border-radius: 20px;
-	transition: all 300ms ease-in-out;
 	cursor: pointer;
 	font-size: 12px;
 }
@@ -304,56 +244,34 @@ abbr[title], acronym[title] {
 	background-color: var(--color-5);
 }
 .section-2 .row {
-	padding: 10px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	align-content: center;
-	width: min(1028px, 100%);	
-
 }
-.section-2 .row .sec1,.sec2 {
-	width: 50%;
+.section-2 .row .sec1, .sec2 {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 }
-.card1,.card3,.card4 {
+.card1,.card2,.card3,.card4 {
 	width: 450px;
 	height: 260px;
-	padding: 10px;
+	padding: 0 20px;
 	margin: 20px;
 	display: flex;
 	align-items: center;
-}
-.card1,.card3,.card4 {
-	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	color: white;
-	font-weight: 400;
-	line-height: 30px;
-	text-align: center;
-	transition: all 300ms ease-in-out;
-	font-size: 16px;
-
+	line-height: 20px;
+	text-align: left;
+	font-size: 14px;
+	border-radius: 18px;
+	/* border: 4px solid rgb(255, 255, 255); */
 }
-.card1 strong,.card3 strong,.card4 strong {font-size: 21px;}
-.card1 {	background-color: #c53d51;}
-.card3 {	background-color: #125241;}
-.card4 {	background-color: #091841;}
-.card2 {
-	width: 450px;
-	height: 260px;
-	padding: 10px;
-	margin: 20px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.imgg img:hover{transform: scale(1.03);}
-
+.card1 strong, .card2 strong, .card3 strong,.card4 strong {font-size: 20px; margin-bottom: 10px;}
+.card1 {background-color: #c53d51;}.card2 {background-color: #125241;}
+.card3 {background-color: #091841;}.card4 {background-color: #731571;}
 
 .section-13{
 	background-color: #000000b2;
@@ -518,29 +436,20 @@ footer p {
 
 /* =========== TEXT ANIMATIONS ========== */
 
-
-
 /* TEXT SWING */
-/* Colour tokens — override to re-skin the effect:
-   --ink    main text colour (defaults to currentColor)
-   --ink-2  primary accent   --ink-3  secondary accent */
-:root { --ink: rgb(0, 255, 157); --ink-2: #FF4FD8; --ink-3: #83fbff; }
+:root { --ink: rgb(0, 255, 157);  --ink-3: #bdfdff; }
+.fx-pendulum {font: 600 22px/1.1 "JetBrains Mono", monospace; letter-spacing: .12em; color: var(--ink);}
+.fx-pendulum b {display: inline-block; transform-origin: 50% -80%; animation: fx-pendulum 1.8s ease-in-out infinite; animation-delay: calc(var(--i) * -.12s);}
+.fx-pendulum b:nth-child(even) {color: var(--ink-3);}
+@keyframes fx-pendulum {0%, 100% { transform: rotate(10deg); } 50% { transform: rotate(-10deg);}}
 
-/* 60 Pendulum — letters swing from an unseen pivot in staggered phase */
-.fx-pendulum {
-  font: 600 32px/1.1 "JetBrains Mono", monospace;
-  letter-spacing: .12em;
-  color: var(--ink);
-}
-.fx-pendulum b {
-  font-weight: inherit;
-  display: inline-block;
-  transform-origin: 50% -80%;
-  animation: fx-pendulum 1.8s ease-in-out infinite;
-  animation-delay: calc(var(--i) * -.12s);
-}
-.fx-pendulum b:nth-child(even) { color: var(--ink-3); }
-@keyframes fx-pendulum {
-  0%, 100% { transform: rotate(10deg); }
-  50%      { transform: rotate(-10deg); }
-}
+/* NAME TEXT GRADIENT */
+.fx-lava {
+  font: 800 40px/1.1 Arial, 'Helvetica Neue', sans-serif; color: transparent;
+  background: radial-gradient(circle at 24% 80%, #67ffb0 0 19%, transparent 22%),radial-gradient(circle at 74% 26%, #00f7ff 0 21%, transparent 24%),radial-gradient(circle at 50% 58%, #c3f0ff 0 23%, transparent 26%),radial-gradient(circle at 12% 30%, #00e5ff 0 17%, transparent 20%),linear-gradient(180deg, #ffffff, #fcffa8 96%);
+  background-size: 150% 190%; background-position: 0% 0%; -webkit-background-clip: text; background-clip: text; animation: fx-lava-drift 5s ease-in-out infinite;}
+@keyframes fx-lava-drift {  0%, 100% { background-position: 0% 0%; }  50% { background-position: 100% 100%; }}
+@keyframes fx-lava-blobs {  0%, 100% { background-position: 100% 0%; }  50% { background-position: 0% 100%; }}
+@media (prefers-reduced-motion: reduce) {  .fx-lava { animation: none; }  .fx-lava::after { animation: none; }}
+.fx-lava:hover {animation: fx-lava-drift 1s ease-in-out infinite;}
+
