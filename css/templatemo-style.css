@@ -252,15 +252,18 @@ abbr[title], acronym[title] {
 	justify-content: space-around;
 	align-items: center;
 	align-content: center;
+	padding: 20px 0;
 }
 .section-2 .row .sec1, .sec2 {
 	display: flex;
 	flex-direction: column;
+
 }
 .card1,.card2,.card3,.card4 {
 	width: 450px;
 	height: 260px;
 	padding: 0 20px;
+	margin: 10px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -332,13 +335,6 @@ a{color: var(--color-2);}
 	box-sizing: border-box;
 	transition: all 300ms ease-in-out;
 }
-
-@media (max-width: 1000px) {}
-@media (max-width: 991px) {}
-@media (max-width: 843px) {}
-@media (max-width: 1045px) {}
-@media (max-width: 620px) {}
-@media (max-width: 500px) {}
 
 @media (max-width: 991.98px) {
 	.intro {
